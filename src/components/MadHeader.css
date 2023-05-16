@@ -1,8 +1,5 @@
 .mad-header {
   display: flex;
-  position: fixed;
-  top: 5px;
-  left: 5px;
 }
 
 .logo-link {
