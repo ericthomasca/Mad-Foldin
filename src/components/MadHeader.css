@@ -1,0 +1,31 @@
+.mad-header {
+  display: flex;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 120px;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+@font-face {
+  font-family: "HFF Warped Zone";
+  src: url("../assets/fonts/HffWarpedZone.ttf") format("truetype"),
+    url("../assets/fonts/HffWarpedZone.otf") format("opentype");
+}
+
+.logo-text {
+  font-family: "HFF Warped Zone", sans-serif;
+  font-size: 36px;
+  color: aliceblue;
+  text-decoration: none;
+}
